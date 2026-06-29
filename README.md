@@ -23,6 +23,7 @@ claim-adjudicator/
 ├── data/
 │   ├── sample_claims.csv       # Test dataset (claims and image paths)
 │   └── evidence_requirements.csv # Object-specific filtering rules
+|   └── user_history.csv         # for safety
 └── src/
     ├── __init__.py
     ├── config.py               # Constants, model names, and ontology map
